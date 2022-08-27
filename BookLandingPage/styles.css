@@ -144,8 +144,8 @@ a.readmore {
     font-size: 30px;
     display: block;
     position: absolute;
-    right: 60px;
-    top: 70px;
+    right: 30px;
+    top: 65px;
     display: none;
     cursor: pointer;
 }
@@ -273,10 +273,14 @@ a.readmore {
     }
 
     .buttons {
-        justify-content: space-evenly;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
     }
 
     .buttons a {
+        width: 80%;
         padding: 0 18px;
         border-radius: 12px;
         margin: 0;
